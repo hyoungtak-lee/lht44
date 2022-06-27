@@ -1,0 +1,336 @@
+*{
+            margin: 0;
+            padding: 0;
+            margin: auto;
+        }
+
+        .main{
+            margin-top: 2%;
+            width: 90%;
+            height: 450px;
+        }
+        .footer{
+            width: 100%;
+            height: 190px;
+            margin-top: 3%;
+            background: #212529;
+        }
+        /*�뿤�뜑*/
+        select{
+            font-size: 15px;
+        }
+        select::-webkit-scrollbar {
+            width: 10px;  /* �뒪�겕濡ㅻ컮�쓽 �꼫鍮� */
+        }
+
+        select::-webkit-scrollbar-thumb {
+            height: 20%; /* �뒪�겕濡ㅻ컮�쓽 湲몄씠 */
+            background: grey; /* �뒪�겕濡ㅻ컮�쓽 �깋�긽 */
+            border-radius: 10px;
+        }
+
+        select::-webkit-scrollbar-track {
+            background: whitesmoke;  /*�뒪�겕濡ㅻ컮 �뮮 諛곌꼍 �깋�긽*/
+        }
+        /*硫붿씤*/
+        .movielist{
+            width: 33%;
+            height: 100%;
+            float: left;
+            border: 2px solid #495057;
+        }
+        .movietitle{
+            line-height: 500%;
+            text-align: center;
+            width: 100%;
+            height: 19.5%;
+            background-color: #212529;
+            color: white;
+        }
+        .moviecontent{
+            width: 100%;
+            height: 83%;
+            overflow: hidden;
+        }
+        #movie{
+            /**/
+            text-align: center;
+            margin-left: 0.8%;
+            width: 98%;
+            height: 96%;
+            overflow-y: scroll;
+            border: none;
+            font-size: 18px;
+        }
+
+        .theaterlist{
+            width: 33%;
+            height: 100%;
+            float: left;
+            border: 2px solid #495057;
+        }
+        .theatertitle{
+            line-height: 500%;
+            text-align: center;
+            width: 100%;
+            height: 19.5%;
+            background-color: #212529;
+            color: white;
+        }
+        .theatercontent{
+            height: 83%;
+            overflow: hidden;
+            margin-left: 0.8%;
+        }
+        .theatercontent>div{
+            width: 48%;
+            height: 95%;
+            display: inline-block;
+            margin-left: 0.5%;
+            margin-top: 0.5%;
+        }
+        #region{
+            border: none;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            overflow-y: scroll;
+        }
+        #regionTheater{
+            border: none;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            overflow-y: scroll;
+        }
+
+        .timelist{
+            width: 33%;
+            height: 100%;
+            float: left;
+            text-align: center;
+            border: 2px solid #495057;
+        }
+        .timelisttitle{
+            text-align: center;
+            width: 100%;
+            height: 9.5%;
+            background-color: #212529;
+            color: white;
+        }
+        .timelistdate{
+            padding-top: 1.7%;
+            width: 100%;
+            height: 7.6%;
+            background-color: #212529;
+        }
+        .timelistcontent{
+            height: 70%;
+            overflow: hidden;
+        }
+        .timelistcontent div{
+            width: 23%;
+            height: 95%;
+            display: inline-block;
+            margin-left: 0.15%;
+        }
+        .timelistcontent input{
+            text-align: center;
+            color: white;
+            width: 100%;
+            height: 10%;
+            margin-top: 2%;
+        }
+        .hall1>input{
+            color: black;
+        }
+        .hall2>input{
+            color: black;
+        }
+        .hall3>input{
+            color: black;
+        }
+        .hall4>input{
+            color: black;
+        }
+
+        #htlist1{
+            border: none;
+            overflow-y: scroll;
+            text-align: center;
+            width: 100%;
+            height: 80%;
+            margin-bottom: 25.8%;
+        }
+        #htlist2{
+            border: none;
+            overflow-y: scroll;
+            text-align: center;
+            width: 100%;
+            height: 80%;
+            margin-bottom: 25.8%;
+
+        }
+        #htlist3{
+            border: none;
+            overflow-y: scroll;
+            text-align: center;
+            width: 100%;
+            height: 80%;
+            margin-bottom: 25.8%;
+        }
+        #htlist4{
+            border: none;
+            overflow-y: scroll;
+            text-align: center;
+            width: 100%;
+            height: 80%;
+            margin-bottom: 25.8%;
+        }
+        #findHall{
+            height: 10%;
+            width: 35%;
+            border-radius: 10px;
+            color: whitesmoke;
+            background: #ff2c31;
+            font-weight: bold;
+            font-size: 20px;
+            border: none;
+            margin-top: -2%;
+        }
+        /*�뫖�꽣*/
+        .box-result01{
+            width: 20%;
+            height: 100%;
+            float: left;
+            margin-left:17%;
+            text-align: center;
+            border-left: 2px solid #495057;
+        }
+        .box-result01>input{
+            width: 100%;
+            border: none;
+            text-align: center;
+            font-size: 20px;
+            margin-top: 8%;
+            color: #ced4da;
+            background: #212529;
+			overflow: auto;
+            
+        }
+        .box-result02{
+            width: 20%;
+            height: 100%;
+            float: left;
+            text-align: center;
+            border-left: 2px solid #495057;
+        }
+        .box-result02>input{
+            width: 100%;
+            border: none;
+            text-align: center;
+            font-size: 20px;
+            margin-top: 0.5%;
+            color: #ced4da;
+            background: #212529;
+        }
+        .box-result03{
+            width: 20%;
+            height: 100%;
+            float: left;
+            text-align: center;
+            border-left: 2px solid #495057;
+            border-right: 2px solid #495057;
+        }
+        .box-result03>input{
+            width: 100%;
+            height: 16%;
+            border: none;
+            text-align: center;
+            font-size: 20px;
+            color: #ced4da;
+            background: #212529;
+        }
+
+        .btn-result{
+            width: 8%;
+            height: 95%;
+            margin-left: 0.8%;
+            margin-top: 0.2%;
+            font-size: 25px;
+            color: whitesmoke;
+            background: #ff2c31;
+            border-radius: 25px;
+            border: none;
+            font-weight: bold;
+        }
+        .back{
+            position: fixed;
+            top: 13%;
+            left: 0;
+            width: 100%;
+            height: 90%;
+            background-color: white;
+            z-index: -2;
+        }
+        .header{
+            width: 100%;
+            height: 150px;
+            border-bottom: 1px solid black;
+            font-size: 13px;
+            line-height: 1.2;
+            color: #666;
+            font-family: 'Noto Sans KR', 'CJONLYONENEW', '留묒� 怨좊뵓', '�룍��', Dotum, sans-serif;
+            font-weight: 400;
+        }
+        .contents
+        {
+            margin: 5px 250px 0px 250px;
+            display: flex;
+        }
+        .header_con
+        {
+            display: inline-block;
+            width: 80px;
+            padding: 5px 10px;
+            text-align: center;
+            font-size: 11px;
+        }
+        .cgv_img
+        {
+            width: 36px;
+            height: 36px;
+            display: block;
+            margin: 0px auto;
+        }
+        .header_title {
+            margin-top: 20px;
+            margin-left: -5%;
+        }
+        .header_title_span {
+            margin: 10px;
+            margin-bottom: 50px;
+        }
+        .header_login {
+            margin-top: 4%;
+            margin-left: 50%;
+        }
+        .header_con {
+            list-style: none;
+        }
+        /* a�깭洹몄뿉 �뀓�뒪�듃 諛묒쨪�쓣 �뾾�븷怨� �깋�긽�쓣 #333 */
+        .header_a {
+            text-decoration: none;
+            color:#333;
+        }
+
+        .main_index, .main_index:hover{
+            text-decoration: none;
+            color:#333;
+        }
+        
+      #cart_img {
+      	width: 30px;
+      	height: 30px;
+      	margin-bottom: 3px;
+      }
